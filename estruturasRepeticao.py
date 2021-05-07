@@ -97,11 +97,11 @@
 # print(x)
 
 #8-Entrar com dois números e imprimir todos os números no intervalo fechado, do menor para o maior.
-# n1=int(input("Digite o numero de inicio: "))
-# n2=int(input("Digite o numero de inicio: "))
-# if n1 < n2:
-#     for i in range(n1+1,n2):
-#         print(i)
-# else:
-#     for i in range(n2+1,n1):
-#         print(i)
+n1=int(input("Digite o numero de inicio: "))
+n2=int(input("Digite o numero de inicio: "))
+if n1 < n2:
+    for i in range(n1+1,n2):
+        print(i)
+else:
+    for i in range(n2+1,n1):
+        print(i)
